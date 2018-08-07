@@ -1,4 +1,5 @@
-
+// Code for number of months and years of experience
+{
     var start_date = '2017-10-04';
     
     function dateDiffAsh(date) {
@@ -29,3 +30,12 @@
     }
     document.getElementById('monthAsh').innerHTML = dateDiffAsh(start_date).months
     document.getElementById('yearAsh').innerHTML =  dateDiffAsh(start_date).years
+}
+// Statcounter code
+{
+    var sc_project=11756259; 
+    var sc_invisible=0; 
+    var sc_security="7d190102"; 
+    var scJsHost = (("https:" == document.location.protocol) ? "https://secure." : "http://www.");
+    document.write("<script type='text/javascript' src='" + scJsHost + "statcounter.com/counter/counter.js'></"+"script>");
+}

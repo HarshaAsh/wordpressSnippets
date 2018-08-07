@@ -2,7 +2,14 @@
     width: 100%;
 }
 .deviconASH i{
-    width: 20px;
+    width: 30px;
+	height: 30px;
+    font-size: 30px;
+    margin: 5px 20px;
+}
+.deviconASH svg{
+    width: 30px;
+	height:30px;
     font-size: 20px;
     margin: 5px 20px;
 }
