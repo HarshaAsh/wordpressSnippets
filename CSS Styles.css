@@ -1,3 +1,4 @@
+/* Code for devicons */
 .deviconASH{
     width: 100%;
 }
@@ -28,6 +29,8 @@
     align-items: center;
 		text-align: center;
 }
+
+/* CHANGING THE STYLING OF THE EXISTING PAGE */
 .page-header{
     padding: 0!important;
     height: 0px!important;
@@ -42,3 +45,106 @@
     margin: 0!important;
     height: 0px;
 }
+
+/* Code for donut chart */
+.block {
+    margin: 25px 25px 0 0;
+    background: white;
+    border-radius: 5px;
+    float: left;
+    width: 50%;
+    overflow: hidden;
+  }
+  
+  .donut-chart-block {
+    overflow: hidden;
+  }
+  
+  .donut-chart {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 2rem auto;
+    border-radius: 100%;
+    float: left;
+  }
+  
+  .donut-chart .center {
+    background: white;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    height: 140px;
+    width: 140px;
+    border-radius: 70px;
+  }
+  
+  .donut-chart .clip {
+    border-radius: 50%;
+    clip: rect(0px, 200px, 200px, 100px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .item {
+    border-radius: 50%;
+    clip: rect(0px, 100px, 200px, 0px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    font-family: monospace;
+    font-size: 1.5rem;
+  }
+  
+  #section1 {
+    transform: rotate(0deg);
+  }
+  
+  #section1 .item {
+    background-color: #E64C65;
+    transform: rotate(170deg);
+  }
+  
+  #section2 {
+    transform: rotate(170deg);
+  }
+  
+  #section2 .item {
+    background-color: #11A8AB;
+    transform: rotate(20deg);
+  }
+  
+  #section3 {
+    transform: rotate(190deg);
+  }
+  
+  #section3 .item {
+    background-color: #4FC4F6;
+    transform: rotate(113deg);
+  }
+  
+  #section4 {
+    transform: rotate(-32deg);
+  }
+  
+  #section4 .item {
+    background-color: #FCB150;
+    transform: rotate(32deg);
+  }
+  .labelAsh{
+    float: left;
+    margin: 75px 0px 0px 20px;
+  }
+  .oneAsh{
+      color: #E64C65;
+  }
+  .twoAsh{
+    color: #11A8AB;
+  }
+  .threeAsh{
+      color: #4FC4F6;
+  }
+  .fourAsh{
+      color: #FCB150;
+  }
