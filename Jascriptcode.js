@@ -40,4 +40,25 @@ window.onload = function () {
         var scJsHost = (("https:" == document.location.protocol) ? "https://secure." : "http://www.");
         document.write("<script type='text/javascript' src='" + scJsHost + "statcounter.com/counter/counter.js'></"+"script>");
     }
+    /**
+     * Adds read more functionality for experts
+     * Code in functions file functions.php
+     */
+    function new_excerpt_more( $more ) {
+        return ' <a class="read-more" href="'. get_permalink( get_the_ID() ) . '">' . __('Read More', 'your-text-domain') . '</a>';
+    }
+    add_filter( 'excerpt_more', 'new_excerpt_more' );
+    
+    /**
+    <!-- Code for Math Jax -->
+    Code in header file
+    */
+    <script src="https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    /**
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    Code in header file
+    */
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131190803-1"></script>
+    
+    
 }
